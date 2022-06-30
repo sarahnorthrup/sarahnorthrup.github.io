@@ -1,6 +1,105 @@
+/* colors */
 #myBody{
     background-color: #ada590;
 }
 #myinfo{
     background-color: #ada590;
+}
+#cardCustom{
+    background-color: #ada590;
+}
+/* image */
+img.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.7;
+  }
+/* grid */
+.grid-container {
+    display: grid;
+    grid-template-columns:16.6% 16.6% 16.6% 16.6% 16.6% 14%;
+    grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 14%;
+    gap: 10px;
+    background-color: #ada590;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: #ada590;
+    text-align:justify;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+  .item1 {
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  .item2{
+    grid-area: 1 / 4 / 1 / 6;
+  }
+  .item3{
+    grid-area: 2/ 3 / 6 / 6;
+  }
+
+  .grid-containerBottom {
+    display: grid;
+    grid-template-columns:16.6% 16.6% 16.6% 16.6% 16.6% 14%;
+    grid-template-rows: 16.6% 16.6% 16.6% 16.6% 16.6% 14%;
+    gap: 10px;
+    background-color: #ada590;
+    padding: 10px;
+  }
+  .grid-containerBottom > div {
+    background-color: #ada590;
+    text-align:justify;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  .item4{
+    grid-area: 1 / 5/ 4 / 6;
+  }
+  .item5 {
+    grid-area: 1 / 1 / 4 / 2;
+  }
+  /* video */
+  .video{
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+
+-moz-border-radius: 12px;
+-webkit-border-radius: 12px;
+border-radius: 12px;
+-moz-box-shadow: 4px 4px 14px #000;
+-webkit-box-shadow: 4px 4px 14px #000;
+box-shadow: 4px 4px 14px #000;
+-moz-transform:rotate(20deg);
+-webkit-transform:rotate(20deg);
+-o-transform:rotate(20deg);
+-ms-transform:rotate(20deg);
+filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=.2); 
+  }
+  /* bottom contact info */
+  .contactInfo {
+    justify-content: right;
+    list-style: none;
+  }
+
+  /* links at bottom */
+.links {
+    background-color: #ada590;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  
+  
+  /* a:hover, a:active {
+    background-color: green;
+    color: white;
+  } */
 }

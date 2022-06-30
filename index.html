@@ -8,15 +8,14 @@
     
     <title>Sarah's Portfolio</title>
   
-
+<!-- bootstrap -->
     <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/album/">
-
-    
-
-    
-
+  <!-- CSS links -->
 <link href="css\bootstrap.min.css" rel="stylesheet">
 <link href="css\custom.css" rel="stylesheet">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
     <style>
       .bd-placeholder-img {
@@ -90,7 +89,6 @@
         <div class="col-sm-4 offset-md-1 py-4">
           <h4 class="text-white">Contact</h4>
           <ul class="list-unstyled">
-           
             <li><a href = "mailto: noir2000@gmail.com">Email Me</a></li>
           </ul>
         </div>
@@ -101,7 +99,7 @@
     <div class="container">
       <a href="#" class="navbar-brand d-flex align-items-center">
         
-        <strong>Sarah's Portfolio</strong>
+        <strong class="animate__animated animate__bounce">Sarah's Portfolio</strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -111,32 +109,34 @@
 </header>
 
 <main>
-
-  <section class="py-5 text-center container">
-    <div class="row py-lg-5">
-      <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Sarah's Portfolio</h1>
-<div>
-  <img src="20220615_182324port.jpg"  width="25%" height="25%">
+  <div class="grid-container">
+        <!-- grid -->
+        
+          <div class="item2">
+        <h1 class="fw-light">Bio</h1>
+        </div>
+<div class="item1">
+  <img class="sticky" src="20220615_182324port.jpg"  width="100%" height="100%"alt="Profile Picture">
 
 </div>
-        <p class="lead text-muted">Displayed below are my projects and relevant information.</p>
-        <p>
+<div class="item3">
+        <p class="lead text-muted">My name is Sarah Northrup and I live in Houston Texas. I have my Bachelor's in Systems Software Engineering and I'm currently getting my Master's in Software Engineering. Over the years I've done a lot of freelance work for individuals. I love technology and coding, and I hope to learn more about these subjects.</p>
+      </div>
     
-        </p>
-      </div>
-    </div>
-  </section>
-<div id="myinfo">
-  <div class="album py-5">
-    <div class="container">
-
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-      <h2>stuff</h2>
-
-      </div>
-    </div>
   </div>
+  <div class="grid-containerBottom">
+      <div class="item4">
+      <iframe  class="video" width="285" height="584" src="https://www.youtube.com/embed/Odj6TxVAFPY" title="bio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="item5">
+      <ul class="contactInfo">
+        <li><a  class="links" href = "mailto: noir2000@gmail.com">Email Me</a></li>
+        <br>
+        <li><a class="links" href = "https://github.com/sarahnorthrup">Github</a></li>
+        <br>
+        <li><a class="links" href = "https://www.linkedin.com/in/sarahenorthrup/">LinkedIn</a></li>
+      </ul>
+    </div>
 </div>
 </main>
 
