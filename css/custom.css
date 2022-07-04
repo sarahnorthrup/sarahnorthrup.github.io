@@ -17,6 +17,10 @@ img.sticky {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     opacity: 0.7;
   }
+  .topHeader {
+    background-image: url('../images/fancy-cushion.webp');
+    background-repeat: repeat;
+}
 /* grid */
 .grid-container {
     display: grid;
